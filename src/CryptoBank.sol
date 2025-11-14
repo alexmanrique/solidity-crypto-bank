@@ -42,5 +42,5 @@ contract CryptoBank {
 
     function setMaxBalance(uint256 _maxBalance) public onlyAdmin {
         maxBalance = _maxBalance;
-    } 
+    }
 }

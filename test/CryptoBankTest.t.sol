@@ -3,7 +3,7 @@
 pragma solidity ^0.8.24;
 
 import "forge-std/Test.sol";
-import "../src/CryptoBank.sol"; 
+import "../src/CryptoBank.sol";
 
 contract CryptoBankTest is Test {
     CryptoBank public cryptoBank;
@@ -75,5 +75,4 @@ contract CryptoBankTest is Test {
         cryptoBank.withdraw(0);
         vm.stopPrank();
     }
-
 }
